@@ -15,6 +15,7 @@
      (declare (ignorable env))
      ;; 常に200を返す．bodyは関数の戻り値にする．
      `(200 (:content-type "text/plain") (,(get-message)))))
+  (format t "PID for this process is [~A]~%" (getpid))
   (format t "Press enter key to exit...~%")
   (read-line nil nil))
 
