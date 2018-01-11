@@ -3,10 +3,10 @@
 ## 前提
 
 - 依存ライブラリ
-  - clack
-  - cffi
+  - [clack](https://github.com/fukamachi/clack)
+  - [cffi](https://github.com/cffi/cffi)
 - 実行環境
-  - roswell
+  - [roswell](https://github.com/roswell/roswell)
   - roswellを使わない場合でも実行は可能．`hot-reload-sample.asd`を読み込み，`(hot-reload-sample:main)`を実行すればよい．
 
 ## 動作
